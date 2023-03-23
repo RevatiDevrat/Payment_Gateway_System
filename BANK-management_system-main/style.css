@@ -1,0 +1,137 @@
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.tool h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 2%;
+  letter-spacing: 3px;
+}
+
+.tool h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 10%;
+    width: 100%;
+  }
+}
+
+.tool h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 2%;
+  margin-left: 6%;
+  letter-spacing: 2px;
+  font-family: courier;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 25px;
+  background-color: transparent;
+  transition: 0.8 s all;
+  cursor: pointer;
+  font-size: 10%;
+}
+
+a {
+  margin: 0;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+  color: white;
+  font-size: 20px;
+  background-color: maroon;
+}
+
+.nav-item {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: 0;
+}
+
+.nav-item:hover {
+  background-color: rgb(48, 230, 194);
+}
+
+.nav-item {
+  color: rgb(15, 15, 15);
+}
+
+.h1 {
+  margin-left: 10%;
+}
+
+.share {
+  position: fixed;
+  top: 400px;
+  transform: translateY(-50%);
+}
+
+.share a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.share a:hover {
+  color: #000;
+  width: 10px;
+}
+
+.linkedin {
+  background: #0e76a8;
+  color: white;
+}
+
+.github {
+  background: #080808;
+  color: white;
+}
+
+.youtube {
+  color: white;
+  background: #c4302b;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}
